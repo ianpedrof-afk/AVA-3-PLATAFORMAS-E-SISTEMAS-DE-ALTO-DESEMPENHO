@@ -11,4 +11,3 @@ py pratica3_consenso_pagamentos.py --particao 3+2      # altera a partição
 
 Os resultados são gravados em `resultados/`. Totais esperados: R$ 60 (unanimidade) e R$ 170 (maioria).
 
-Atenção: uma simulação não valida um algoritmo de consenso real.
