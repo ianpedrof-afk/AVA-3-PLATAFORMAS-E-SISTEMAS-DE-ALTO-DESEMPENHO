@@ -1,0 +1,13 @@
+politica,pagamento,tentativa,valor,cenario,particao,nos_ativos,nos_alcancaveis,votos_sim,quorum,decisao,valor_aplicado,total_cobrado
+UNANIMIDADE,P001,1,40,todos_ativos,-,5,5,5,5,APROVADO,40,40
+UNANIMIDADE,P002,1,110,N4_fora,-,4,5,4,5,BLOQUEADO,0,40
+UNANIMIDADE,P003,1,30,particao_2+2+1,2+2+1,4,2,2,5,BLOQUEADO,0,40
+UNANIMIDADE,P004,1,25,particao_3+2,3+2,4,3,3,5,BLOQUEADO,0,40
+UNANIMIDADE,P005,1,20,todos_ativos,-,5,5,5,5,APROVADO,20,60
+UNANIMIDADE,P005,2,20,repeticao_cliente,-,5,5,0,5,DUPLICADO_IGNORADO,0,60
+MAIORIA,P001,1,40,todos_ativos,-,5,5,5,3,APROVADO,40,40
+MAIORIA,P002,1,110,N4_fora,-,4,5,4,3,APROVADO,110,150
+MAIORIA,P003,1,30,particao_2+2+1,2+2+1,4,2,2,3,BLOQUEADO,0,150
+MAIORIA,P004,1,25,particao_3+2,3+2,4,3,3,3,APROVADO,25,175
+MAIORIA,P005,1,20,todos_ativos,-,5,5,5,3,APROVADO,20,195
+MAIORIA,P005,2,20,repeticao_cliente,-,5,5,0,3,DUPLICADO_IGNORADO,0,195
