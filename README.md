@@ -1,12 +1,10 @@
 # Prática 3 – Consenso replicado em um serviço de pagamentos
 
-**Universidade Veiga de Almeida** · Plataformas e Sistemas de Alto Desempenho
+**Plataformas e Sistemas de Alto Desempenho**
+
 **Aluno:** Ian Pedro Ferreira de Paula · **Matrícula:** 1220104020
-**Professor:** Vitor Amadeu Souza · **Entrega:** AVA 3 – novembro de 2026
 
 Este repositório reúne o código-fonte, os resultados e o roteiro da Prática 3. O programa simula um serviço de pagamentos replicado em cinco servidores e compara duas políticas de consenso diante de falhas, partições de rede e repetição de requisições.
-
-> **Aviso:** é uma simulação didática. Ela mostra como as regras de quórum funcionam, mas **não valida um algoritmo de consenso real**.
 
 ---
 
